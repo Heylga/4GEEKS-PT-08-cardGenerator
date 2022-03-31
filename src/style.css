@@ -8,6 +8,28 @@ body {
   width: 200px;
   height: 300px;
   background-color: white;
+  display: flex;
   justify-content: center;
+  margin-top: 30px;
+}
+.header {
   position: absolute;
+  top: 10%;
+  transform: translate(0, -50%);
+  font-size: xxx-large;
+}
+.footer {
+  position: absolute;
+  top: 80%;
+  transform: translate(-50%, 0);
+  float: right;
+  transform: scale(-1);
+  font-size: xxx-large;
+  padding-right: 70%;
+  padding-top: 20%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
 }
