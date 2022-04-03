@@ -44,7 +44,4 @@ window.onload = function() {
     cardheader.style.color = "black";
     cardfooter.style.color = "black";
   }
-
-  // 2 option
-  // icons.forEach(icons) => {var Red = (icons == "♥") || (icons == "♦") ? color: red;}
 };
